@@ -1,0 +1,25 @@
+﻿Build started 12.11.2014 7:25:08.
+     1>Project "F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\BinCislo05\BinCislo05.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BinCislo.cpp main.cpp Testy.cpp
+         Testy.cpp
+         main.cpp
+         BinCislo.cpp
+     1>f:\uniza\3.semester\informatika 3\bincislo05solution\bincislo05\bincislo.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\uniza\3.semester\informatika 3\bincislo05solution\bincislo05\bincislo.cpp(17): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(257) : see declaration of 'strrev'
+     1>f:\uniza\3.semester\informatika 3\bincislo05solution\bincislo05\bincislo.cpp(22): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>f:\uniza\3.semester\informatika 3\bincislo05solution\bincislo05\bincislo.cpp(46): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(257) : see declaration of 'strrev'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\Debug\BinCislo05.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\Debug\BinCislo05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\Debug\BinCislo05.lib" /MACHINE:X86 Debug\BinCislo.obj
+         Debug\main.obj
+         Debug\Testy.obj
+         BinCislo05.vcxproj -> F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\Debug\BinCislo05.exe
+     1>Done Building Project "F:\Uniza\3.Semester\Informatika 3\BinCislo05Solution\BinCislo05\BinCislo05.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
